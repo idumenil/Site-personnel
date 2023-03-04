@@ -1,0 +1,119 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #000000, #434343);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p, h1, h2, h3 {
+    color: rgb(243, 241, 241);
+}
+
+a {
+    color: rgb(190, 19, 19);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.menu a {
+    font-size: 1.5em;
+    position: relative;
+    top: 80px;
+    padding: 0 10px;
+}
+
+.accueil-introduction, .blog-introduction, .a-propos-introduction, .portfolio-introduction
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.a-propos-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta {
+    background: linear-gradient(#423e3e, #9c7272);
+    color: white;
+    border-radius: 50px;
+    border: 1px black solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width : 13%
+}
+
+.cta:hover {
+    background: linear-gradient(#050505, #c06666);
+}
+
+.lien-icone {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-reseaux {
+    display: flex;
+    justify-content: center;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+  }
+
+.section-contact h2 {
+    color: rgb(243, 241, 241);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+.section-contact p {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    color: white;
+  }
+  
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
